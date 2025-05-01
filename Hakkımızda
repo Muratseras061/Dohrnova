@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hakkımızda | Dohrnova Turrina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2f7b4f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #e9f5ee;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #2f7b4f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2f7b4f;
+    }
+
+    footer {
+      background-color: #2f7b4f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dohrnova Turrina</h1>
+    <p>Sürdürülebilir Yaşam Derneği</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="#">Faaliyetler</a>
+    <a href="#">Üyelik</a>
+    <a href="#">İletişim</a>
+  </nav>
+
+  <div class="container">
+    <h2>Hakkımızda</h2>
+    <p><strong>Dohrnova Turrina Sürdürülebilir Yaşam Derneği</strong>, 2025 yılında Trabzon’da kurulmuştur. Doğayla uyumlu yaşamı destekleyen, toplumsal dönüşümde öncü olmayı hedefleyen bir sivil inisiyatif olarak yola çıkmıştır.</p>
+
+    <h3>Vizyonumuz</h3>
+    <p>Sürdürülebilir yaşam kültürünü birey, toplum ve kurum düzeyinde yaygınlaştırmak.</p>
+
+    <h3>Misyonumuz</h3>
+    <p>Çevre dostu çözümler üretmek, eğitim ve projelerle doğayla uyumlu yaşamı teşvik etmek, bilimsel temelli farkındalık oluşturmak.</p>
+
+    <h3>İlkelerimiz</h3>
+    <ul>
+      <li>8R prensiplerine bağlılık</li>
+      <li>Doğa temelli düşünme</li>
+      <li>Toplumsal katılım ve şeffaflık</li>
+      <li>Yerelden evrensele etki</li>
+    </ul>
+
+    <h3>Kurucu Ekip</h3>
+    <p>Kurucu ekip, eğitimciler, çevre mühendisleri ve sivil toplum gönüllülerinden oluşmaktadır. Dernek başkanı <strong>Murat ŞERAS</strong> öncülüğünde kurulmuştur.</p>
+
+    <h3>Hikâyemiz</h3>
+    <p>İklim krizi, kaynakların tükenmesi ve toplumsal kayıtsızlık karşısında daha adil ve doğayla barışık bir yaşam mümkün mü sorusuyla çıktık yola. Bu dernek, bu soruya verilen kolektif bir yanıttır.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Dohrnova Turrina Derneği | Trabzon / Çarşıbaşı
+  </footer>
+</body>
+</html>
