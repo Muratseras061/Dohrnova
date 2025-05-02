@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dohrnova Turrina Sürdürülebilir Yaşam Derneği</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2f7b4f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #e9f5ee;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #2f7b4f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?nature,forest') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+      font-size: 2rem;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .cta button {
+      background-color: #2f7b4f;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #2f7b4f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dohrnova Turrina</h1>
+    <p>Sürdürülebilir Yaşam Derneği</p>
+  </header>
+
+  <nav>
+    <a href="#">Ana Sayfa</a>
+    <a href="#">Hakkımızda</a>
+    <a href="#">Faaliyetler</a>
+    <a href="#">Üyelik</a>
+    <a href="#">İletişim</a>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <h2>Doğayla Uyumlu Bir Gelecek İçin</h2>
+      <p>Yerelden evrensele sürdürülebilir çözümler</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2>Hakkımızda</h2>
+    <p>
+      Derneğimiz, çevreyle dost bir yaşamı teşvik etmek, doğa temelli çözümleri yaygınlaştırmak ve toplumsal dönüşüm için ilham vermek amacıyla kurulmuştur.
+    </p>
+    <div class="cta">
+      <button onclick="alert('Üyelik formu yakında burada!')">Bize Katılın</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Dohrnova Turrina Derneği | Trabzon / Çarşıbaşı
+  </footer>
+</body>
+</html>
